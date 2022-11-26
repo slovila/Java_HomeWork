@@ -16,20 +16,20 @@ public class Task04 {
 
         public static long getTimeMsOfInsert (List list)
         {
-            //Напишите тут ваш код
+
             Date beginTime = new Date();
             insert10000(list);
             Date finishTime = new Date();
             long msDelay = finishTime.getTime() - beginTime.getTime();
-            //Напишите тут ваш код
+
             return msDelay;
         }
         public static long getTimeMsOfGet (List list){
-            //напишите тут ваш код
+
             Date dateAfter = new Date();
             get10000(list);
 
-            //напишите тут ваш код
+
             Date dateBefore = new Date();
             return dateBefore.getTime() - dateAfter.getTime();
         }
