@@ -18,7 +18,7 @@ public class Task03 {
         System.out.println("Вывод массива с наименьшими значениями: ");
         for (int j = 0; j < arr1.length / 2; j++) {
             arr2[j] = arr1[j];
-            System.out.print(arr2[j] + ", ");
+            System.out.println(arr2[j] + ", ");
 
         }
         System.out.println();
@@ -26,7 +26,7 @@ public class Task03 {
         System.out.println("Вывод массива с наибольшими значениями: ");
         for (int j = 0; j < arr1.length / 2; j++) {
             arr3[j] = arr1[j + 10];
-            System.out.print(arr3[j] + ", ");
+            System.out.println(arr3[j] + ", ");
         }
 
 
